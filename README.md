@@ -1,10 +1,10 @@
 # 4225 - HTML 5 Y CSS 3 NIVEL I Desafio dos
 
-##Requerimientos generales:
+## Requerimientos generales:
 
 Usted ha sido contratado por una empresa editorial para escribir un articulo relacionado con "el calentamiento global". Le solicitan realizar las siguientes actividades: Nota: Debe enviar un archivo comprimido con los archivos html y css.
 
-##Requerimientos específicos:
+## Requerimientos específicos:
 
 - Crear los archivos HTML y CSS. Enlazar el archivo css con el html. Los estilos css los debe guardar en una carpeta llamada "css". Al igual agregue la carpeta imgs para guardar alli las imagenes que requiera
 
