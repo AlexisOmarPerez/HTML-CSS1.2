@@ -1,0 +1,151 @@
+:root {
+  --main: #ffcd03;
+  --gray: #f2f3f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navigation {
+  height: 50px;
+  display: flex;
+  border-bottom: solid 1px lightgray;
+  align-items: center;
+  padding-left: 25px;
+  gap: 300px;
+}
+
+.navigation img {
+  height: 30px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+}
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 0 130px;
+  height: 230px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.hero h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  padding: 0 16px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  letter-spacing: -1.6px;
+}
+
+.hero p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+figure {
+  height: 100vh;
+}
+
+figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+blockquote {
+  padding: 20px 130px 50px;
+  width: 75%;
+}
+
+cite {
+  padding-top: 20px;
+  display: block;
+}
+
+main {
+  display: flex;
+  padding: 0 130px;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+article {
+  width: 70%;
+}
+
+article p {
+  font-size: 20px;
+  padding-bottom: 30px;
+  line-height: 38px;
+}
+
+/* Aside */
+aside {
+  width: 30%;
+  background-color: var(--gray);
+}
+
+aside h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 40px 0;
+}
+
+.card {
+  padding: 0 34px 34px 34px;
+}
+
+.card__img {
+  height: 178px;
+}
+
+.card__tag {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 12px 0;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  color: white;
+  background-color: black;
+  padding: 50px 130px;
+  font-size: 14px;
+}
